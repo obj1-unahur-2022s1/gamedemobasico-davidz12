@@ -3,7 +3,7 @@ object player {
 	var property position
 	var property image = "player.png"
 	
-	var property maizPlantado = []
+	var property  = []
 	
 	method moveteDerecha(){
 		self.position(self.position().right(1))
@@ -17,12 +17,12 @@ object player {
 		self.position(self.position().up(1))
 	}
 	
-	method moveteAbajo(){
+	method moveteAbajo(){maizPlantado
 		self.position(self.position().down(1))
 	}
 	
 	method moveteA(unaPosicion){
-		self.position(unaPosicion)
+		self.position (unaPosicion)
 	}
 
 	method agregarMaiz(maiz){
